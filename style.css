@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  background: url("./trees.jpg");
+  background: url("./PC.jpg");
   background-size: cover;
   background-position: 50% 60%;
   background-attachment: fixed;
@@ -27,6 +27,14 @@ h1 {
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px black;
 }
+h4{text-align: center;}
+.rookie {
+  position: fixed; 
+  top: 5px; 
+  left: 15px; 
+  margin-bottom: 2rem;}
+#favicon { max-height: 3vh;}
+#favicon:hover { transform: scale(2);}
 
 .main-title {
   text-align: center;

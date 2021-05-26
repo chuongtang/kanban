@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drag and Drop</title>
+    <title>Kanban</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="rookie">Built by <img src="FaviconCLear.png" id='favicon'> , a Junior developer</div>
     <h1 class="main-title">Kanban Board</h1>
+    <h4>Kanban is a simple method to visualize work and as a result, better manage it.</h4>
+    <h4> While there are a lot of techniques and methodologies out there that teams can explore and use for their
+        improvement initiatives, Kanban is one method that is gaining traction within a number of industries today
+        because of its straightforward approach to process improvement.</h4>
+
     <div class="drag-container">
         <ul class="drag-list">
             <!-- Backlog Column -->
@@ -18,7 +26,8 @@
                 </span>
                 <!-- Backlog Content -->
                 <div id="backlog-content" class="custom-scroll">
-                    <ul class="drag-item-list" id="backlog-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(0)"></ul>
+                    <ul class="drag-item-list" id="backlog-list" ondrop="drop(event)" ondragover="allowDrop(event)"
+                        ondragenter="dragEnter(0)"></ul>
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
@@ -41,7 +50,8 @@
                 </span>
                 <!-- Progress Content -->
                 <div id="progress-content" class="custom-scroll">
-                    <ul class="drag-item-list" id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(1)"></ul>
+                    <ul class="drag-item-list" id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)"
+                        ondragenter="dragEnter(1)"></ul>
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
@@ -64,7 +74,8 @@
                 </span>
                 <!-- Complete Content -->
                 <div id="complete-content" class="custom-scroll">
-                    <ul class="drag-item-list" id="complete-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(2)"></ul>
+                    <ul class="drag-item-list" id="complete-list" ondrop="drop(event)" ondragover="allowDrop(event)"
+                        ondragenter="dragEnter(2)"></ul>
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
@@ -87,7 +98,8 @@
                 </span>
                 <!-- On Hold Content -->
                 <div id="on-hold-content" class="custom-scroll">
-                    <ul class="drag-item-list" id="on-hold-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(3)"></ul>
+                    <ul class="drag-item-list" id="on-hold-list" ondrop="drop(event)" ondragover="allowDrop(event)"
+                        ondragenter="dragEnter(3)"></ul>
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
@@ -108,4 +120,5 @@
     <!-- Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
