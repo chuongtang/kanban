@@ -32,10 +32,10 @@ function getSavedColumns() {
     completeListArray = JSON.parse(localStorage.completeItems);
     onHoldListArray = JSON.parse(localStorage.onHoldItems);
   } else {
-    backlogListArray = ['Release the course', 'Sit back and relax'];
-    progressListArray = ['Work on projects', 'Listen to music'];
-    completeListArray = ['Being cool', 'Getting stuff done'];
-    onHoldListArray = ['Being uncool'];
+    backlogListArray = ['Learn RUST to build Solana', 'Finish up Web3 in LinkedIn'];
+    progressListArray = ['BuildSpace tasks', 'Build Ethereum by Mike Solomon'];
+    completeListArray = ['Add KV into serverless-endpoints', 'Fetch user IP in cryptoPrice'];
+    onHoldListArray = ['Build with Ruby On Rails', 'Bugs in messenger1035', ];
   }
 }
 
